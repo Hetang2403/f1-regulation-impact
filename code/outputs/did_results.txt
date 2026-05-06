@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          relative_perf   R-squared:                       0.601
+Model:                            OLS   Adj. R-squared:                  0.597
+Method:                 Least Squares   F-statistic:                     163.9
+Date:                Tue, 05 May 2026   Prob (F-statistic):          7.65e-191
+Time:                        11:44:58   Log-Likelihood:                 54.619
+No. Observations:                1024   AIC:                            -89.24
+Df Residuals:                    1014   BIC:                            -39.92
+Df Model:                           9                                         
+Covariance Type:                  HC3                                         
+===========================================================================================
+                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                   0.1217      0.020      6.193      0.000       0.083       0.160
+C(team)[T.Alpine]           0.0697      0.024      2.883      0.004       0.022       0.117
+C(team)[T.Aston Martin]     0.0722      0.024      2.969      0.003       0.025       0.120
+C(team)[T.Ferrari]          0.4010      0.037     10.758      0.000       0.328       0.474
+C(team)[T.Haas]            -0.0751      0.017     -4.358      0.000      -0.109      -0.041
+C(team)[T.Mercedes]         0.5592      0.038     14.606      0.000       0.484       0.634
+C(team)[T.Red Bull]         0.6006      0.039     15.473      0.000       0.525       0.677
+C(team)[T.Williams]        -0.0805      0.018     -4.523      0.000      -0.115      -0.046
+post                       -0.0344      0.013     -2.596      0.009      -0.060      -0.008
+post:treated                0.0682      0.035      1.963      0.050    9.41e-05       0.136
+==============================================================================
+Omnibus:                       34.184   Durbin-Watson:                   2.148
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               78.478
+Skew:                           0.129   Prob(JB):                     9.09e-18
+Kurtosis:                       4.332   Cond. No.                         11.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

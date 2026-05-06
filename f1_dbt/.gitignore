@@ -2,3 +2,9 @@
 target/
 dbt_packages/
 logs/
+rsa_key.pem
+rsa_key.pub
+venv/
+.venv/
+.env
+keypair.py

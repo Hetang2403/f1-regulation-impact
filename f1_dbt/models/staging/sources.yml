@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: F1_DB
+    schema: RAW
+    tables:
+      - name: TEAM_RACE_PANEL
+      - name: TEAM_RACE_PANEL_FORECAST
